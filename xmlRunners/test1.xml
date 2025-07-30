@@ -15,8 +15,16 @@
         <classes>
             <class name="SignIn">
                 <methods>
-                    <include name="signIn">
-                    </include>
+                    <include name="signIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="browseProductsTest">
+        <classes>
+            <class name="BrowseProducts">
+                <methods>
+                    <include name="browseProducts"/>
                 </methods>
             </class>
         </classes>
